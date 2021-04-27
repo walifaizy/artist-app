@@ -1,17 +1,21 @@
 // Init State
 let INITIAL_STATE = {
-    counter: 0,
+    item: null,
+    isLoading: false,
 };
 
-const counterReducer = (state = INITIAL_STATE, action) => {
+const searchReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case 'INCREMENT':
-            return { counter: state.counter + 1 };
-        case 'DECREMENT':
-            return { counter: state.counter - 1 };
+        case 'GET_SERACH':
+            return { ...state, isLoading: true };
+        case 'GET_SEARCH_SUCCESS':
+            const { item } = action;
+            return { ...state, isLoading: false, item };
+        case 'GET_SEARCH_FAILURE':
+            return { ...state, isLoading: false };
         default:
             return state;
     }
 };
 
-export default counterReducer;
+export default searchReducer;
