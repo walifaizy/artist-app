@@ -89,7 +89,7 @@ const App = () => {
                         />{' '}
                     </div>
                     <Hspacer />
-                    <Button solid color="#61dafb" disabled={!searchTerm} onClick={() => onSubmit()}>
+                    <Button solid color={COLORS.blue} disabled={!searchTerm} onClick={() => onSubmit()}>
                         {isLoading ? <Spinner color={COLORS.primary_text} size={`20px`} /> : 'Search'}
                     </Button>
                 </SearchWraper>

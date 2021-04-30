@@ -13,6 +13,7 @@ const Image = (props) => {
     const { thumb } = props;
     return (
         <Ctr>
+            {' '}
             <img src={thumb} />
         </Ctr>
     );

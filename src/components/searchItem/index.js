@@ -52,7 +52,7 @@ const SummaryCtr = styled.div`
         margin-top: 10px;
     }
     .date {
-        color: rgb(55, 174, 2);
+        color: ${COLORS.blue};
     }
     .priceWrapper {
         display: flex;
@@ -62,6 +62,7 @@ const SummaryCtr = styled.div`
             font-size: 1.2rem;
             line-height: 15px;
             margin: 0px 2px;
+            color: ${COLORS.blue};
         }
     }
 `;

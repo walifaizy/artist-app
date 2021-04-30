@@ -19,21 +19,21 @@
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom.\n      "
         },
-
         {
             "title": "react",
-            "artist": "test1",
+            "artist": "Radiohead",
             "id": 2,
             "thumb": "https://picsum.photos/200/250",
+            "genre": "Rock",
             "songs": [
-                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "test1" },
-                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "test1" },
-                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "test1" },
-                { "title": "Feral", "length": "3:13", "release": "", "artist": "test1" },
-                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "test1" },
-                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "test1" },
-                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "test1" },
-                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "test1" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "Radiohead" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Radiohead" },
+                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "Radiohead" },
+                { "title": "Feral", "length": "3:13", "release": "", "artist": "Radiohead" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "Radiohead" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "Radiohead" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "Radiohead" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "Radiohead" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         },
@@ -41,32 +41,129 @@
             "title": "dummy",
             "artist": "test4",
             "id": 3,
+            "genre": "Rock",
             "thumb": "https://picsum.photos/200/250",
             "songs": [
-                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "react" },
-                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "react" },
-                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "react" },
-                { "title": "Feral", "length": "", "release": "1999", "artist": "react" },
-                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "react" },
-                { "title": "Codex", "length": "4:47", "release": "", "artist": "react" },
-                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "react" },
-                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "react" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "test4" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "test4" },
+                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "test4" },
+                { "title": "Feral", "length": "", "release": "1999", "artist": "test4" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "test4" },
+                { "title": "Codex", "length": "4:47", "release": "", "artist": "test4" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "test4" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "test4" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         },
         {
             "title": "test",
-            "artist": "test3",
+            "artist": "Portishead",
             "id": 4,
+            "thumb": "https://picsum.photos/200/250",
+            "genre": "Rock",
+            "songs": [
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Portishead" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "Portishead" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "Portishead" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "Portishead" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "react" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "Portishead" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
+            ],
+            "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
+        },
+        {
+            "title": "test",
+            "artist": "Franz Ferdinand",
+            "id": 5,
+            "releaseYear": "1991",
+            "genre": "Jazz",
             "thumb": "https://picsum.photos/200/250",
             "songs": [
                 { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
-                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "test4" },
-                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "test4" },
-                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "test4" },
-                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "test4" },
-                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "react" },
-                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "test4" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Franz Ferdinand" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "Franz Ferdinand" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "Franz Ferdinand" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "Franz Ferdinand" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "Franz Ferdinand" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "Franz Ferdinand" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
+            ],
+            "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
+        },
+        {
+            "title": "test",
+            "artist": "Tame Impala",
+            "id": 6,
+            "releaseYear": "1991",
+            "thumb": "https://picsum.photos/200/250",
+            "genre": "Pop",
+            "songs": [
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Tame Impala" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "Tame Impala" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "Tame Impala" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "Tame Impala" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "Tame Impala" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "Tame Impala" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
+            ],
+            "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
+        },
+        {
+            "title": "test",
+            "artist": "The White Stripes",
+            "id": 7,
+            "releaseYear": "1991",
+            "thumb": "https://picsum.photos/200/250",
+            "genre": "Pop",
+            "songs": [
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "The White Stripes" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "The White Stripes" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "The White Stripes" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "The White Stripes" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "The White Stripes" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "The White Stripes" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
+            ],
+            "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
+        },
+        {
+            "title": "test",
+            "artist": "Arctic Monkeys",
+            "id": 8,
+            "releaseYear": "1991",
+            "thumb": "https://picsum.photos/200/250",
+            "genre": "Pop",
+            "songs": [
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Arctic Monkeys" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "Arctic Monkeys" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "Arctic Monkeys" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "Arctic Monkeys" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "Arctic Monkeys" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "Arctic Monkeys" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
+            ],
+            "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
+        },
+        {
+            "title": "test",
+            "artist": "The Black Keys",
+            "id": 8,
+            "releaseYear": "1991",
+            "thumb": "https://picsum.photos/200/250",
+            "genre": "Pop",
+            "songs": [
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "The Black Keys" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "The Black Keys" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "The Black Keys" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "The Black Keys" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "The Black Keys" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "The Black Keys" },
                 { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
