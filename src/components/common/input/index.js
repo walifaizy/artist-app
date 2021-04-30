@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
+import { COLORS } from '../../../constants';
 
 const Container = styled.div`
     position: relative;
@@ -7,13 +8,13 @@ const Container = styled.div`
     align-items: stretch;
     input {
         padding: 0px 8px;
-        border: 1px solid rgb(209, 209, 209);
-        border-radius: 4px;
+        border: 1px solid ${COLORS.secondary_background};
         width: 100%;
         font-size: 1rem;
-        height: 36px;
+        height: 56px;
         box-sizing: border-box;
-        background: rgb(255, 255, 255);
+        background: ${COLORS.secondary_background};
+        color: ${COLORS.primary_text};
     }
     &.inputError {
         input {

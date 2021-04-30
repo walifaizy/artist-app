@@ -5,11 +5,11 @@ const Container = styled.div`
     padding: 0;
     margin: 0;
     border: none;
+    box-sizing: border-box;
     background-color: ${(props) => props.color}22;
     color: ${(props) => props.color};
     outline: none;
-    padding: 9px 20px;
-    border-radius: 4px;
+    padding: 0px 28px;
     text-align: center;
     text-transform: capitalize;
     font-size: 0.9rem;
@@ -21,12 +21,17 @@ const Container = styled.div`
     transform: translate3d(0, 0, 0);
     transition: all ease-in 0.2s;
     user-select: none;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &.solid {
         background-color: ${(props) => props.color};
         color: #fff;
     }
     &.disabled {
         opacity: 0.4;
+        background-color: ${(props) => props.color}
         cursor: not-allowed;
         pointer-events: none;
     }

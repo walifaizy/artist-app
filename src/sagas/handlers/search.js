@@ -1,5 +1,5 @@
-import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
-import { getSearchSuccess } from '../../actions';
+import { call, put } from 'redux-saga/effects';
+import { getSearchSuccess, getSearchFailure } from '../../actions';
 import { requestSearch } from '../requests/search';
 
 export function* handleSearch(action) {
@@ -8,6 +8,6 @@ export function* handleSearch(action) {
         const { data } = response;
         yield put(getSearchSuccess(data));
     } catch (error) {
-        console.log(error);
+        yield put(getSearchFailure(error));
     }
 }

@@ -6,7 +6,7 @@ let INITIAL_STATE = {
 
 const searchReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case 'GET_SERACH':
+        case 'GET_SEARCH':
             return { ...state, isLoading: true };
         case 'GET_SEARCH_SUCCESS':
             const { item } = action;

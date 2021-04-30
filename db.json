@@ -2,70 +2,72 @@
     "artists": [
         {
             "title": "eyeva",
-            "author": "foo",
             "id": 1,
-            "thumb": "https://picsum.photos/200/300",
+            "thumb": "https://picsum.photos/200/250",
+            "artist": "Nirvana",
+            "releaseYear": "1991",
+            "genre": "Rock",
             "songs": [
-                { "title": "Bloom", "length": "5:15" },
-                { "title": "Morning Mr Magpie", "length": "4:41" },
-                { "title": "Little by Little", "length": "4:27" },
-                { "title": "Feral", "length": "3:13" },
-                { "title": "Lotus Flower", "length": "5:01" },
-                { "title": "Codex", "length": "4:47" },
-                { "title": "Give Up the Ghost", "length": "4:50" },
-                { "title": "Separator", "length": "5:20" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "Nirvana" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "Nirvana" },
+                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "Nirvana" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "Nirvana" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "", "artist": "Nirvana" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "Nirvana" },
+                { "title": "Give Up the Ghost", "length": "", "release": "2021", "artist": "Nirvana" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "Nirvana" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         },
 
         {
             "title": "react",
-            "author": "facebook",
+            "artist": "test1",
             "id": 2,
-            "thumb": "https://picsum.photos/200/300",
+            "thumb": "https://picsum.photos/200/250",
             "songs": [
-                { "title": "Bloom", "length": "5:15" },
-                { "title": "Morning Mr Magpie", "length": "4:41" },
-                { "title": "Little by Little", "length": "4:27" },
-                { "title": "Feral", "length": "3:13" },
-                { "title": "Lotus Flower", "length": "5:01" },
-                { "title": "Codex", "length": "4:47" },
-                { "title": "Give Up the Ghost", "length": "4:50" },
-                { "title": "Separator", "length": "5:20" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "test1" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "test1" },
+                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "test1" },
+                { "title": "Feral", "length": "3:13", "release": "", "artist": "test1" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "test1" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "test1" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "test1" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "test1" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         },
         {
             "title": "dummy",
-            "author": "css master",
+            "artist": "test4",
             "id": 3,
-            "thumb": "https://picsum.photos/200/300",
+            "thumb": "https://picsum.photos/200/250",
             "songs": [
-                { "title": "Bloom", "length": "5:15" },
-                { "title": "Morning Mr Magpie", "length": "4:41" },
-                { "title": "Little by Little", "length": "4:27" },
-                { "title": "Feral", "length": "3:13" },
-                { "title": "Lotus Flower", "length": "5:01" },
-                { "title": "Codex", "length": "4:47" },
-                { "title": "Give Up the Ghost", "length": "4:50" },
-                { "title": "Separator", "length": "5:20" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "react" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "react" },
+                { "title": "Little by Little", "length": "4:27", "release": "1999", "artist": "react" },
+                { "title": "Feral", "length": "", "release": "1999", "artist": "react" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "react" },
+                { "title": "Codex", "length": "4:47", "release": "", "artist": "react" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "react" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "react" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         },
         {
             "title": "test",
-            "author": "medium",
+            "artist": "test3",
             "id": 4,
-            "thumb": "https://picsum.photos/200/300",
+            "thumb": "https://picsum.photos/200/250",
             "songs": [
-                { "title": "Bloom", "length": "5:15" },
-                { "title": "Morning Mr Magpie", "length": "4:41" },
-                { "title": "Little by Little", "length": "4:27" },
-                { "title": "Feral", "length": "3:13" },
-                { "title": "Lotus Flower", "length": "5:01" },
-                { "title": "Codex", "length": "4:47" },
-                { "title": "Give Up the Ghost", "length": "4:50" },
-                { "title": "Separator", "length": "5:20" }
+                { "title": "Bloom", "length": "5:15", "release": "2021", "artist": "" },
+                { "title": "Morning Mr Magpie", "length": "4:41", "release": "2020", "artist": "test4" },
+                { "title": "Little by Little", "length": "4:27", "release": "", "artist": "test4" },
+                { "title": "Feral", "length": "3:13", "release": "1999", "artist": "test4" },
+                { "title": "Lotus Flower", "length": "5:01", "release": "1989", "artist": "test4" },
+                { "title": "Codex", "length": "4:47", "release": "1999", "artist": "react" },
+                { "title": "Give Up the Ghost", "length": "4:50", "release": "2021", "artist": "test4" },
+                { "title": "Separator", "length": "5:20", "release": "2000", "artist": "" }
             ],
             "description": "\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12\" vinyl releases on 28 March, a wider digital release via AWAL, and a special \"newspaper\" edition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      "
         }
