@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { getSearch } from '../../actions';
 import { Button, Input, Spinner } from '../../components/common/index';
 import SearchItem from '../../components/searchItem';
-import Summary from '../../components/searchItem/summary';
+import Summary from '../../components/summary/index';
 import { COLORS } from '../../constants';
 
 const Appjs = styled.div`
