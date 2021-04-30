@@ -104,10 +104,12 @@ const App = () => {
                 ) : (
                     <>
                         {/* ITEM STARTS */}
-                        {item && (
+                        {item ? (
                             <div onClick={() => toggle()}>
                                 <SearchItem item={item} />
                             </div>
+                        ) : (
+                            ''
                         )}
                         {/* ITEM ENDS */}
 

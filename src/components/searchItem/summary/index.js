@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { COLORS } from '../../../constants';
 import { Image } from '../../common';
+import { Transition } from 'react-transition-group';
 
 const ContentWrapper = styled.div`
     background-color: ${COLORS.secondary_background};
