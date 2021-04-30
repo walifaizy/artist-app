@@ -16,4 +16,6 @@ A single page application for searching music artists
 
 1. Node with YARN for managing the packages.
 2. ReactJS(CRA) - for the UI components.
-3. Styled Components
+3. Redux and redux saga - for managing state.
+4. Axios - for API calls
+5. Styled Components
