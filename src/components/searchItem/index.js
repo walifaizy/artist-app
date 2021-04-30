@@ -5,6 +5,7 @@ import { Image } from '../common';
 
 const ItemCtr = styled.div`
     with: 100%;
+    cursor: pointer;
 `;
 
 const Item = styled.div`
@@ -25,6 +26,7 @@ const SummaryCtr = styled.div`
     margin: 0px 15px 0px 15px;
     display: flex;
     justify-content: space-between;
+    text-align: left;
 
     .brand {
         font-family: sans-serif;
@@ -32,13 +34,18 @@ const SummaryCtr = styled.div`
         font-weight: normal;
         font-size: 14px;
         line-height: 15px;
-        color: rgb(126, 133, 155);
+        color: ${COLORS.blue};
     }
     .title {
         font-weight: 600;
         font-size: 14px;
         line-height: 16px;
         margin-top: 5px;
+    }
+    .description {
+        font-size: 0.85rem;
+        margin-top: 10px;
+        line-height: 1.5;
     }
     .deliver {
         font-size: 0.85rem;
@@ -68,23 +75,18 @@ const SearchItem = (props) => {
                     <div className="imageCtr">
                         <Image thumb={item && item.thumb} />
                     </div>
-                    {/* <SummaryCtr>
-                        <div>
-                            <div className="brand">{item.brand}</div>
-                            <div className="title">{item.title}</div>
-                            <div className="deliver">
-                                Delivered by: <span className="date">{item.estimatedDeliveryDate}</span>
-                            </div>
-                            <div className="deliver">{item.warranty}</div>
-                        </div>
-                        <div className="priceWrapper">
-                            <span>AED</span> &nbsp;
-                            <div className="price"> {item && item.unitPrice}</div>
-                        </div>
-                    </SummaryCtr> */}
                     <SummaryCtr>
                         <div>
-                            <div className="title">{item.title}</div>
+                            <div className="brand">{item.title}</div>
+                            <div className="title">{item.artist}</div>
+                            <div className="deliver">
+                                Released year: <span className="date">{item.releaseYear}</span>
+                            </div>
+                            <div className="description">{item.description}</div>
+                        </div>
+                        <div className="priceWrapper">
+                            <span>Genre</span> &nbsp;
+                            <div className="price"> {item && item.genre}</div>
                         </div>
                     </SummaryCtr>
                 </Item>

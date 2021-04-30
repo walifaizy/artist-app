@@ -39,6 +39,13 @@ const Vspacer = styled.div`
     height: ${(props) => props.height || '20px'};
 `;
 
+const SpinnerWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+`;
+
 const App = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [hide, setHide] = useState(false);
@@ -62,10 +69,10 @@ const App = () => {
         }
         onSubmit();
     };
+
     const toggle = () => {
         setHide(!hide);
     };
-    console.log(isLoading, 'isLoading');
 
     return (
         <Appjs>
@@ -83,25 +90,34 @@ const App = () => {
                     </div>
                     <Hspacer />
                     <Button solid color="#61dafb" disabled={!searchTerm} onClick={() => onSubmit()}>
-                        {isLoading ? <Spinner /> : 'Search'}
+                        {isLoading ? <Spinner color={COLORS.primary_text} size={`20px`} /> : 'Search'}
                     </Button>
                 </SearchWraper>
                 {/* SEARCH ENDS */}
                 <Vspacer />
 
-                {/* ITEM STARTS */}
-                {item && (
-                    <div onClick={() => toggle()}>
-                        <SearchItem item={item} />
-                    </div>
+                {isLoading ? (
+                    <SpinnerWrapper>
+                        {' '}
+                        <Spinner color={COLORS.primary_text} size={`20px`} />
+                    </SpinnerWrapper>
+                ) : (
+                    <>
+                        {/* ITEM STARTS */}
+                        {item && (
+                            <div onClick={() => toggle()}>
+                                <SearchItem item={item} />
+                            </div>
+                        )}
+                        {/* ITEM ENDS */}
+
+                        <Vspacer height={'120px'} />
+
+                        {/* TABLE START */}
+                        {hide && <Summary item={item} />}
+                        {/* TABLE ENDS */}
+                    </>
                 )}
-                {/* ITEM ENDS */}
-
-                <Vspacer height={'120px'} />
-
-                {/* TABLE START */}
-                {hide && <Summary item={item} />}
-                {/* TABLE ENDS */}
             </Ctr>
         </Appjs>
     );

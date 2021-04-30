@@ -8,16 +8,17 @@ const spin = keyframes`
     `;
 
 const Loader = styled.div`
-    border: 2px solid ${COLORS.primary_text}
+    border: 2px solid ${(props) => props.color};
     border-top: 2px solid ${COLORS.primary_background};
     border-radius: 50%;
-    width: 15px;
-    height:15px;
+    width: ${(props) => props.size};
+    height: ${(props) => props.size};
     animation: ${spin} 0.7s linear infinite;
 `;
 
 const Spinner = (props) => {
-    return <Loader />;
+    const { color, size } = props;
+    return <Loader color={color} size={size} />;
 };
 
 export default Spinner;
